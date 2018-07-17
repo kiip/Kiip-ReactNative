@@ -11,7 +11,11 @@ import com.facebook.soloader.SoLoader;
 import java.util.Arrays;
 import java.util.List;
 
+import me.kiip.sdk.Kiip;
+
 public class MainApplication extends Application implements ReactApplication {
+    private static final String APP_KEY = "YOUR_APP_KEY";
+    private static final String APP_SECRET = "YOUR_APP_SECRET";
 
   private final ReactNativeHost mReactNativeHost = new ReactNativeHost(this) {
     @Override
@@ -22,7 +26,7 @@ public class MainApplication extends Application implements ReactApplication {
     @Override
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
-          new MainReactPackage()
+          new MainReactPackage(), new KiipPackage()
       );
     }
 
@@ -41,5 +45,10 @@ public class MainApplication extends Application implements ReactApplication {
   public void onCreate() {
     super.onCreate();
     SoLoader.init(this, /* native exopackage */ false);
+
+      Kiip.init(this, APP_KEY, APP_SECRET);
+      //Set false when you are releasing it in production
+      Kiip.getInstance().setTestMode(true);
   }
+
 }

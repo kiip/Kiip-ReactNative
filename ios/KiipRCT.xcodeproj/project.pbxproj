@@ -64,7 +64,13 @@
 		1D39A3E720F2C7D6006E828F /* KIIPMoatMobileAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D39A3BF20F2C7D5006E828F /* KIIPMoatMobileAppKit.framework */; };
 		1D39A3E820F2C7EF006E828F /* XIDLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D39A39220F2C7D5006E828F /* XIDLibrary.framework */; };
 		1D39A3E920F2C7EF006E828F /* XIDLibrary.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1D39A39220F2C7D5006E828F /* XIDLibrary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		1D39A47820F2D222006E828F /* KiipBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D39A47720F2D222006E828F /* KiipBridge.m */; };
+		1D39A4AF20FD205A006E828F /* KiipInterstitial.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D39A4AE20FD205A006E828F /* KiipInterstitial.m */; };
+		1D39A4B220FD2350006E828F /* KiipModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D39A4B120FD2350006E828F /* KiipModule.m */; };
+		1D39A4C020FD6901006E828F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D39A4BF20FD6901006E828F /* SystemConfiguration.framework */; };
+		1D39A4C220FD690B006E828F /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D39A4C120FD690B006E828F /* CoreTelephony.framework */; };
+		1D39A4C420FD6912006E828F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D39A4C320FD6912006E828F /* AVFoundation.framework */; };
+		1D39A4C620FD6918006E828F /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D39A4C520FD6918006E828F /* AdSupport.framework */; };
+		1D39A4C820FD691F006E828F /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D39A4C720FD691F006E828F /* WebKit.framework */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -433,8 +439,15 @@
 		1D39A3BD20F2C7D5006E828F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D39A3BE20F2C7D5006E828F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1D39A3BF20F2C7D5006E828F /* KIIPMoatMobileAppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KIIPMoatMobileAppKit.framework; sourceTree = "<group>"; };
-		1D39A47620F2D222006E828F /* KiipBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KiipBridge.h; sourceTree = "<group>"; };
-		1D39A47720F2D222006E828F /* KiipBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KiipBridge.m; sourceTree = "<group>"; };
+		1D39A4AD20FD205A006E828F /* KiipInterstitial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KiipInterstitial.h; sourceTree = "<group>"; };
+		1D39A4AE20FD205A006E828F /* KiipInterstitial.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KiipInterstitial.m; sourceTree = "<group>"; };
+		1D39A4B020FD2350006E828F /* KiipModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KiipModule.h; sourceTree = "<group>"; };
+		1D39A4B120FD2350006E828F /* KiipModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KiipModule.m; sourceTree = "<group>"; };
+		1D39A4BF20FD6901006E828F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1D39A4C120FD690B006E828F /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		1D39A4C320FD6912006E828F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1D39A4C520FD6918006E828F /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		1D39A4C720FD691F006E828F /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		2D02E47B1E0B4A5D006451C7 /* KiipRCT-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KiipRCT-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* KiipRCT-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KiipRCT-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -457,6 +470,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D39A4C820FD691F006E828F /* WebKit.framework in Frameworks */,
+				1D39A4C620FD6918006E828F /* AdSupport.framework in Frameworks */,
+				1D39A4C420FD6912006E828F /* AVFoundation.framework in Frameworks */,
+				1D39A4C220FD690B006E828F /* CoreTelephony.framework in Frameworks */,
+				1D39A4C020FD6901006E828F /* SystemConfiguration.framework in Frameworks */,
 				1D39A3C220F2C7D5006E828F /* KiipSDK.framework in Frameworks */,
 				ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */,
 				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
@@ -592,8 +610,10 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
-				1D39A47620F2D222006E828F /* KiipBridge.h */,
-				1D39A47720F2D222006E828F /* KiipBridge.m */,
+				1D39A4AD20FD205A006E828F /* KiipInterstitial.h */,
+				1D39A4AE20FD205A006E828F /* KiipInterstitial.m */,
+				1D39A4B020FD2350006E828F /* KiipModule.h */,
+				1D39A4B120FD2350006E828F /* KiipModule.m */,
 			);
 			name = KiipRCT;
 			sourceTree = "<group>";
@@ -743,6 +763,11 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1D39A4C720FD691F006E828F /* WebKit.framework */,
+				1D39A4C520FD6918006E828F /* AdSupport.framework */,
+				1D39A4C320FD6912006E828F /* AVFoundation.framework */,
+				1D39A4C120FD690B006E828F /* CoreTelephony.framework */,
+				1D39A4BF20FD6901006E828F /* SystemConfiguration.framework */,
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
 			);
 			name = Frameworks;
@@ -1378,8 +1403,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
-				1D39A47820F2D222006E828F /* KiipBridge.m in Sources */,
+				1D39A4AF20FD205A006E828F /* KiipInterstitial.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				1D39A4B220FD2350006E828F /* KiipModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

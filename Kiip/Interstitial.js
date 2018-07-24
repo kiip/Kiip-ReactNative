@@ -5,7 +5,6 @@ const saveMoment =  (momentId) => {
 }
 
 const showInterstitial = () => {
-  // return NativeModules.Interstitials.showAd()
   return NativeModules.KiipInterstitial.show();
 }
 

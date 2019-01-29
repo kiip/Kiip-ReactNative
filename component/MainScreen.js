@@ -13,7 +13,7 @@ export default class MainScreen extends Component {
     {
       id: 2,
       title: "Native Ad",
-      subtitle: "Reward ad in your view (Todo)"
+      subtitle: "Reward ad in your view"
     },
   ]
 

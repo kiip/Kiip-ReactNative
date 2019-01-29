@@ -1,13 +1,10 @@
 import {NativeModules} from 'react-native'
 
 const saveMoment =  (momentId) => {
-  // return NativeModules.Interstitials.initAd()
-
   return NativeModules.KiipInterstitial.saveMoment(momentId);
 }
 
 const showInterstitial = () => {
-  // return NativeModules.Interstitials.showAd()
   return NativeModules.KiipInterstitial.show();
 }
 

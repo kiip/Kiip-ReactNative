@@ -71,6 +71,8 @@
 		1D39A4C420FD6912006E828F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D39A4C320FD6912006E828F /* AVFoundation.framework */; };
 		1D39A4C620FD6918006E828F /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D39A4C520FD6918006E828F /* AdSupport.framework */; };
 		1D39A4C820FD691F006E828F /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D39A4C720FD691F006E828F /* WebKit.framework */; };
+		1D60870B21FA89DD00240B1E /* KiipNativeRewardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D60870A21FA89DD00240B1E /* KiipNativeRewardView.m */; };
+		1D60871421FFA56200240B1E /* KiipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D60871321FFA56200240B1E /* KiipView.m */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -448,6 +450,10 @@
 		1D39A4C320FD6912006E828F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		1D39A4C520FD6918006E828F /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		1D39A4C720FD691F006E828F /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		1D60870921FA89DD00240B1E /* KiipNativeRewardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KiipNativeRewardView.h; sourceTree = "<group>"; };
+		1D60870A21FA89DD00240B1E /* KiipNativeRewardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KiipNativeRewardView.m; sourceTree = "<group>"; };
+		1D60871221FFA56200240B1E /* KiipView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KiipView.h; sourceTree = "<group>"; };
+		1D60871321FFA56200240B1E /* KiipView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KiipView.m; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* KiipRCT-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KiipRCT-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* KiipRCT-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KiipRCT-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -614,6 +620,10 @@
 				1D39A4AE20FD205A006E828F /* KiipInterstitial.m */,
 				1D39A4B020FD2350006E828F /* KiipModule.h */,
 				1D39A4B120FD2350006E828F /* KiipModule.m */,
+				1D60870921FA89DD00240B1E /* KiipNativeRewardView.h */,
+				1D60870A21FA89DD00240B1E /* KiipNativeRewardView.m */,
+				1D60871221FFA56200240B1E /* KiipView.h */,
+				1D60871321FFA56200240B1E /* KiipView.m */,
 			);
 			name = KiipRCT;
 			sourceTree = "<group>";
@@ -1403,6 +1413,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				1D60871421FFA56200240B1E /* KiipView.m in Sources */,
+				1D60870B21FA89DD00240B1E /* KiipNativeRewardView.m in Sources */,
 				1D39A4AF20FD205A006E828F /* KiipInterstitial.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				1D39A4B220FD2350006E828F /* KiipModule.m in Sources */,

@@ -19,9 +19,8 @@ import me.kiip.sdk.Modal;
 import me.kiip.sdk.Poptart;
 
 public class KiipInterstitial extends KiipModule implements Kiip.OnContentListener, Modal.OnShowListener, Modal.OnDismissListener, Modal.WebViewListener{
-    private static final String TAG = ReactContextBaseJavaModule.class.getSimpleName();
+    private static final String TAG = KiipInterstitial.class.getSimpleName();
     private Poptart mPoptart;
-    private Promise mRequestAdPromise;
 
     public KiipInterstitial(ReactApplicationContext reactContext) {
         super(reactContext);

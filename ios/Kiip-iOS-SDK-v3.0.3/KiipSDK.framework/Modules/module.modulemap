@@ -1,0 +1,6 @@
+framework module KiipSDK {
+  umbrella header "KiipSDK.h"
+
+  export *
+  module * { export * }
+}

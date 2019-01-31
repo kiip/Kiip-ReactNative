@@ -22,48 +22,6 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
-		1D39A3C020F2C7D5006E828F /* KiipSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1D39A38F20F2C7D5006E828F /* KiipSDKResources.bundle */; };
-		1D39A3C120F2C7D5006E828F /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 1D39A39020F2C7D5006E828F /* CHANGELOG.md */; };
-		1D39A3C220F2C7D5006E828F /* KiipSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D39A39120F2C7D5006E828F /* KiipSDK.framework */; };
-		1D39A3C320F2C7D5006E828F /* XIDLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D39A39220F2C7D5006E828F /* XIDLibrary.framework */; };
-		1D39A3C420F2C7D5006E828F /* docSet.toc in Resources */ = {isa = PBXBuildFile; fileRef = 1D39A39520F2C7D5006E828F /* docSet.toc */; };
-		1D39A3C520F2C7D5006E828F /* docSet.dsidx-wal in Resources */ = {isa = PBXBuildFile; fileRef = 1D39A39620F2C7D5006E828F /* docSet.dsidx-wal */; };
-		1D39A3C620F2C7D6006E828F /* docSet.dsidx-shm in Resources */ = {isa = PBXBuildFile; fileRef = 1D39A39720F2C7D5006E828F /* docSet.dsidx-shm */; };
-		1D39A3C720F2C7D6006E828F /* docSet.dsidx in Resources */ = {isa = PBXBuildFile; fileRef = 1D39A39820F2C7D5006E828F /* docSet.dsidx */; };
-		1D39A3C820F2C7D6006E828F /* docSet.tokencache in Resources */ = {isa = PBXBuildFile; fileRef = 1D39A39920F2C7D5006E828F /* docSet.tokencache */; };
-		1D39A3C920F2C7D6006E828F /* docSet.mom in Resources */ = {isa = PBXBuildFile; fileRef = 1D39A39A20F2C7D5006E828F /* docSet.mom */; };
-		1D39A3CA20F2C7D6006E828F /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 1D39A39C20F2C7D5006E828F /* index.html */; };
-		1D39A3CB20F2C7D6006E828F /* _index.scss in Resources */ = {isa = PBXBuildFile; fileRef = 1D39A39F20F2C7D5006E828F /* _index.scss */; };
-		1D39A3CC20F2C7D6006E828F /* _variables.scss in Resources */ = {isa = PBXBuildFile; fileRef = 1D39A3A020F2C7D5006E828F /* _variables.scss */; };
-		1D39A3CD20F2C7D6006E828F /* _xcode.scss in Resources */ = {isa = PBXBuildFile; fileRef = 1D39A3A120F2C7D5006E828F /* _xcode.scss */; };
-		1D39A3CE20F2C7D6006E828F /* _print.scss in Resources */ = {isa = PBXBuildFile; fileRef = 1D39A3A220F2C7D5006E828F /* _print.scss */; };
-		1D39A3CF20F2C7D6006E828F /* _layout.scss in Resources */ = {isa = PBXBuildFile; fileRef = 1D39A3A320F2C7D5006E828F /* _layout.scss */; };
-		1D39A3D020F2C7D6006E828F /* _object.scss in Resources */ = {isa = PBXBuildFile; fileRef = 1D39A3A420F2C7D5006E828F /* _object.scss */; };
-		1D39A3D120F2C7D6006E828F /* style.scss in Resources */ = {isa = PBXBuildFile; fileRef = 1D39A3A520F2C7D5006E828F /* style.scss */; };
-		1D39A3D220F2C7D6006E828F /* _normalize.scss in Resources */ = {isa = PBXBuildFile; fileRef = 1D39A3A620F2C7D5006E828F /* _normalize.scss */; };
-		1D39A3D320F2C7D6006E828F /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 1D39A3A720F2C7D5006E828F /* style.css */; };
-		1D39A3D420F2C7D6006E828F /* Kiip.html in Resources */ = {isa = PBXBuildFile; fileRef = 1D39A3A920F2C7D5006E828F /* Kiip.html */; };
-		1D39A3D520F2C7D6006E828F /* KPModal.html in Resources */ = {isa = PBXBuildFile; fileRef = 1D39A3AA20F2C7D5006E828F /* KPModal.html */; };
-		1D39A3D620F2C7D6006E828F /* KPNotificationView.html in Resources */ = {isa = PBXBuildFile; fileRef = 1D39A3AB20F2C7D5006E828F /* KPNotificationView.html */; };
-		1D39A3D720F2C7D6006E828F /* KPNotification.html in Resources */ = {isa = PBXBuildFile; fileRef = 1D39A3AC20F2C7D5006E828F /* KPNotification.html */; };
-		1D39A3D820F2C7D6006E828F /* KPPoptart.html in Resources */ = {isa = PBXBuildFile; fileRef = 1D39A3AD20F2C7D5006E828F /* KPPoptart.html */; };
-		1D39A3D920F2C7D6006E828F /* hierarchy.html in Resources */ = {isa = PBXBuildFile; fileRef = 1D39A3AE20F2C7D5006E828F /* hierarchy.html */; };
-		1D39A3DA20F2C7D6006E828F /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 1D39A3B020F2C7D5006E828F /* script.js */; };
-		1D39A3DB20F2C7D6006E828F /* library_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D39A3B220F2C7D5006E828F /* library_background.png */; };
-		1D39A3DC20F2C7D6006E828F /* disclosure.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D39A3B320F2C7D5006E828F /* disclosure.png */; };
-		1D39A3DD20F2C7D6006E828F /* disclosure_open.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D39A3B420F2C7D5006E828F /* disclosure_open.png */; };
-		1D39A3DE20F2C7D6006E828F /* button_bar_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D39A3B520F2C7D5006E828F /* button_bar_background.png */; };
-		1D39A3DF20F2C7D6006E828F /* title_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D39A3B620F2C7D5006E828F /* title_background.png */; };
-		1D39A3E020F2C7D6006E828F /* KPNotificationDelegate.html in Resources */ = {isa = PBXBuildFile; fileRef = 1D39A3B820F2C7D5006E828F /* KPNotificationDelegate.html */; };
-		1D39A3E120F2C7D6006E828F /* KPPoptartDelegate.html in Resources */ = {isa = PBXBuildFile; fileRef = 1D39A3B920F2C7D5006E828F /* KPPoptartDelegate.html */; };
-		1D39A3E220F2C7D6006E828F /* KiipDelegate.html in Resources */ = {isa = PBXBuildFile; fileRef = 1D39A3BA20F2C7D5006E828F /* KiipDelegate.html */; };
-		1D39A3E320F2C7D6006E828F /* KPModalDelegate.html in Resources */ = {isa = PBXBuildFile; fileRef = 1D39A3BB20F2C7D5006E828F /* KPModalDelegate.html */; };
-		1D39A3E420F2C7D6006E828F /* docSet.skidx in Resources */ = {isa = PBXBuildFile; fileRef = 1D39A3BC20F2C7D5006E828F /* docSet.skidx */; };
-		1D39A3E520F2C7D6006E828F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1D39A3BD20F2C7D5006E828F /* Info.plist */; };
-		1D39A3E620F2C7D6006E828F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1D39A3BE20F2C7D5006E828F /* README.md */; };
-		1D39A3E720F2C7D6006E828F /* KIIPMoatMobileAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D39A3BF20F2C7D5006E828F /* KIIPMoatMobileAppKit.framework */; };
-		1D39A3E820F2C7EF006E828F /* XIDLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D39A39220F2C7D5006E828F /* XIDLibrary.framework */; };
-		1D39A3E920F2C7EF006E828F /* XIDLibrary.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1D39A39220F2C7D5006E828F /* XIDLibrary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1D39A4AF20FD205A006E828F /* KiipInterstitial.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D39A4AE20FD205A006E828F /* KiipInterstitial.m */; };
 		1D39A4B220FD2350006E828F /* KiipModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D39A4B120FD2350006E828F /* KiipModule.m */; };
 		1D39A4C020FD6901006E828F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D39A4BF20FD6901006E828F /* SystemConfiguration.framework */; };
@@ -73,6 +31,11 @@
 		1D39A4C820FD691F006E828F /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D39A4C720FD691F006E828F /* WebKit.framework */; };
 		1D60870B21FA89DD00240B1E /* KiipNativeRewardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D60870A21FA89DD00240B1E /* KiipNativeRewardView.m */; };
 		1D60871421FFA56200240B1E /* KiipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D60871321FFA56200240B1E /* KiipView.m */; };
+		1D608730220372C400240B1E /* KiipSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1D60872B220372C400240B1E /* KiipSDKResources.bundle */; };
+		1D608731220372C400240B1E /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 1D60872C220372C400240B1E /* CHANGELOG.md */; };
+		1D608732220372C400240B1E /* KiipSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D60872D220372C400240B1E /* KiipSDK.framework */; };
+		1D608733220372C400240B1E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1D60872E220372C400240B1E /* README.md */; };
+		1D608734220372C400240B1E /* KIIPMoatMobileAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D60872F220372C400240B1E /* KIIPMoatMobileAppKit.framework */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -374,7 +337,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				1D39A3E920F2C7EF006E828F /* XIDLibrary.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,46 +363,6 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = KiipRCT/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = KiipRCT/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
-		1D39A38F20F2C7D5006E828F /* KiipSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KiipSDKResources.bundle; sourceTree = "<group>"; };
-		1D39A39020F2C7D5006E828F /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
-		1D39A39120F2C7D5006E828F /* KiipSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KiipSDK.framework; sourceTree = "<group>"; };
-		1D39A39220F2C7D5006E828F /* XIDLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = XIDLibrary.framework; sourceTree = "<group>"; };
-		1D39A39520F2C7D5006E828F /* docSet.toc */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = docSet.toc; sourceTree = "<group>"; };
-		1D39A39620F2C7D5006E828F /* docSet.dsidx-wal */ = {isa = PBXFileReference; lastKnownFileType = file; path = "docSet.dsidx-wal"; sourceTree = "<group>"; };
-		1D39A39720F2C7D5006E828F /* docSet.dsidx-shm */ = {isa = PBXFileReference; lastKnownFileType = file; path = "docSet.dsidx-shm"; sourceTree = "<group>"; };
-		1D39A39820F2C7D5006E828F /* docSet.dsidx */ = {isa = PBXFileReference; lastKnownFileType = file; path = docSet.dsidx; sourceTree = "<group>"; };
-		1D39A39920F2C7D5006E828F /* docSet.tokencache */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = docSet.tokencache; sourceTree = "<group>"; };
-		1D39A39A20F2C7D5006E828F /* docSet.mom */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = docSet.mom; sourceTree = "<group>"; };
-		1D39A39C20F2C7D5006E828F /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
-		1D39A39F20F2C7D5006E828F /* _index.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _index.scss; sourceTree = "<group>"; };
-		1D39A3A020F2C7D5006E828F /* _variables.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _variables.scss; sourceTree = "<group>"; };
-		1D39A3A120F2C7D5006E828F /* _xcode.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _xcode.scss; sourceTree = "<group>"; };
-		1D39A3A220F2C7D5006E828F /* _print.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _print.scss; sourceTree = "<group>"; };
-		1D39A3A320F2C7D5006E828F /* _layout.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _layout.scss; sourceTree = "<group>"; };
-		1D39A3A420F2C7D5006E828F /* _object.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _object.scss; sourceTree = "<group>"; };
-		1D39A3A520F2C7D5006E828F /* style.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = style.scss; sourceTree = "<group>"; };
-		1D39A3A620F2C7D5006E828F /* _normalize.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _normalize.scss; sourceTree = "<group>"; };
-		1D39A3A720F2C7D5006E828F /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
-		1D39A3A920F2C7D5006E828F /* Kiip.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Kiip.html; sourceTree = "<group>"; };
-		1D39A3AA20F2C7D5006E828F /* KPModal.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = KPModal.html; sourceTree = "<group>"; };
-		1D39A3AB20F2C7D5006E828F /* KPNotificationView.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = KPNotificationView.html; sourceTree = "<group>"; };
-		1D39A3AC20F2C7D5006E828F /* KPNotification.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = KPNotification.html; sourceTree = "<group>"; };
-		1D39A3AD20F2C7D5006E828F /* KPPoptart.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = KPPoptart.html; sourceTree = "<group>"; };
-		1D39A3AE20F2C7D5006E828F /* hierarchy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = hierarchy.html; sourceTree = "<group>"; };
-		1D39A3B020F2C7D5006E828F /* script.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
-		1D39A3B220F2C7D5006E828F /* library_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = library_background.png; sourceTree = "<group>"; };
-		1D39A3B320F2C7D5006E828F /* disclosure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disclosure.png; sourceTree = "<group>"; };
-		1D39A3B420F2C7D5006E828F /* disclosure_open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disclosure_open.png; sourceTree = "<group>"; };
-		1D39A3B520F2C7D5006E828F /* button_bar_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_bar_background.png; sourceTree = "<group>"; };
-		1D39A3B620F2C7D5006E828F /* title_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_background.png; sourceTree = "<group>"; };
-		1D39A3B820F2C7D5006E828F /* KPNotificationDelegate.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = KPNotificationDelegate.html; sourceTree = "<group>"; };
-		1D39A3B920F2C7D5006E828F /* KPPoptartDelegate.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = KPPoptartDelegate.html; sourceTree = "<group>"; };
-		1D39A3BA20F2C7D5006E828F /* KiipDelegate.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = KiipDelegate.html; sourceTree = "<group>"; };
-		1D39A3BB20F2C7D5006E828F /* KPModalDelegate.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = KPModalDelegate.html; sourceTree = "<group>"; };
-		1D39A3BC20F2C7D5006E828F /* docSet.skidx */ = {isa = PBXFileReference; lastKnownFileType = file; path = docSet.skidx; sourceTree = "<group>"; };
-		1D39A3BD20F2C7D5006E828F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1D39A3BE20F2C7D5006E828F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		1D39A3BF20F2C7D5006E828F /* KIIPMoatMobileAppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KIIPMoatMobileAppKit.framework; sourceTree = "<group>"; };
 		1D39A4AD20FD205A006E828F /* KiipInterstitial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KiipInterstitial.h; sourceTree = "<group>"; };
 		1D39A4AE20FD205A006E828F /* KiipInterstitial.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KiipInterstitial.m; sourceTree = "<group>"; };
 		1D39A4B020FD2350006E828F /* KiipModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KiipModule.h; sourceTree = "<group>"; };
@@ -454,6 +376,11 @@
 		1D60870A21FA89DD00240B1E /* KiipNativeRewardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KiipNativeRewardView.m; sourceTree = "<group>"; };
 		1D60871221FFA56200240B1E /* KiipView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KiipView.h; sourceTree = "<group>"; };
 		1D60871321FFA56200240B1E /* KiipView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KiipView.m; sourceTree = "<group>"; };
+		1D60872B220372C400240B1E /* KiipSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KiipSDKResources.bundle; sourceTree = "<group>"; };
+		1D60872C220372C400240B1E /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		1D60872D220372C400240B1E /* KiipSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KiipSDK.framework; sourceTree = "<group>"; };
+		1D60872E220372C400240B1E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1D60872F220372C400240B1E /* KIIPMoatMobileAppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KIIPMoatMobileAppKit.framework; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* KiipRCT-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KiipRCT-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* KiipRCT-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KiipRCT-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -481,7 +408,6 @@
 				1D39A4C420FD6912006E828F /* AVFoundation.framework in Frameworks */,
 				1D39A4C220FD690B006E828F /* CoreTelephony.framework in Frameworks */,
 				1D39A4C020FD6901006E828F /* SystemConfiguration.framework in Frameworks */,
-				1D39A3C220F2C7D5006E828F /* KiipSDK.framework in Frameworks */,
 				ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */,
 				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
@@ -489,15 +415,14 @@
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
 				00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */,
 				00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */,
-				1D39A3E820F2C7EF006E828F /* XIDLibrary.framework in Frameworks */,
 				133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */,
-				1D39A3E720F2C7D6006E828F /* KIIPMoatMobileAppKit.framework in Frameworks */,
 				00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */,
 				139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */,
-				1D39A3C320F2C7D5006E828F /* XIDLibrary.framework in Frameworks */,
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
+				1D608734220372C400240B1E /* KIIPMoatMobileAppKit.framework in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
+				1D608732220372C400240B1E /* KiipSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -651,123 +576,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1D39A38E20F2C7D5006E828F /* Kiip-iOS-SDK-v3.0.2 */ = {
+		1D60872A220372C400240B1E /* Kiip-iOS-SDK-v3.0.3 */ = {
 			isa = PBXGroup;
 			children = (
-				1D39A38F20F2C7D5006E828F /* KiipSDKResources.bundle */,
-				1D39A39020F2C7D5006E828F /* CHANGELOG.md */,
-				1D39A39120F2C7D5006E828F /* KiipSDK.framework */,
-				1D39A39220F2C7D5006E828F /* XIDLibrary.framework */,
-				1D39A39320F2C7D5006E828F /* docs */,
-				1D39A3BE20F2C7D5006E828F /* README.md */,
-				1D39A3BF20F2C7D5006E828F /* KIIPMoatMobileAppKit.framework */,
+				1D60872B220372C400240B1E /* KiipSDKResources.bundle */,
+				1D60872C220372C400240B1E /* CHANGELOG.md */,
+				1D60872D220372C400240B1E /* KiipSDK.framework */,
+				1D60872E220372C400240B1E /* README.md */,
+				1D60872F220372C400240B1E /* KIIPMoatMobileAppKit.framework */,
 			);
-			path = "Kiip-iOS-SDK-v3.0.2";
-			sourceTree = "<group>";
-		};
-		1D39A39320F2C7D5006E828F /* docs */ = {
-			isa = PBXGroup;
-			children = (
-				1D39A39420F2C7D5006E828F /* Resources */,
-				1D39A3BD20F2C7D5006E828F /* Info.plist */,
-			);
-			path = docs;
-			sourceTree = "<group>";
-		};
-		1D39A39420F2C7D5006E828F /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				1D39A39520F2C7D5006E828F /* docSet.toc */,
-				1D39A39620F2C7D5006E828F /* docSet.dsidx-wal */,
-				1D39A39720F2C7D5006E828F /* docSet.dsidx-shm */,
-				1D39A39820F2C7D5006E828F /* docSet.dsidx */,
-				1D39A39920F2C7D5006E828F /* docSet.tokencache */,
-				1D39A39A20F2C7D5006E828F /* docSet.mom */,
-				1D39A39B20F2C7D5006E828F /* Documents */,
-				1D39A3BC20F2C7D5006E828F /* docSet.skidx */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		1D39A39B20F2C7D5006E828F /* Documents */ = {
-			isa = PBXGroup;
-			children = (
-				1D39A39C20F2C7D5006E828F /* index.html */,
-				1D39A39D20F2C7D5006E828F /* css */,
-				1D39A3A820F2C7D5006E828F /* Classes */,
-				1D39A3AE20F2C7D5006E828F /* hierarchy.html */,
-				1D39A3AF20F2C7D5006E828F /* js */,
-				1D39A3B120F2C7D5006E828F /* img */,
-				1D39A3B720F2C7D5006E828F /* Protocols */,
-			);
-			path = Documents;
-			sourceTree = "<group>";
-		};
-		1D39A39D20F2C7D5006E828F /* css */ = {
-			isa = PBXGroup;
-			children = (
-				1D39A39E20F2C7D5006E828F /* scss */,
-				1D39A3A720F2C7D5006E828F /* style.css */,
-			);
-			path = css;
-			sourceTree = "<group>";
-		};
-		1D39A39E20F2C7D5006E828F /* scss */ = {
-			isa = PBXGroup;
-			children = (
-				1D39A39F20F2C7D5006E828F /* _index.scss */,
-				1D39A3A020F2C7D5006E828F /* _variables.scss */,
-				1D39A3A120F2C7D5006E828F /* _xcode.scss */,
-				1D39A3A220F2C7D5006E828F /* _print.scss */,
-				1D39A3A320F2C7D5006E828F /* _layout.scss */,
-				1D39A3A420F2C7D5006E828F /* _object.scss */,
-				1D39A3A520F2C7D5006E828F /* style.scss */,
-				1D39A3A620F2C7D5006E828F /* _normalize.scss */,
-			);
-			path = scss;
-			sourceTree = "<group>";
-		};
-		1D39A3A820F2C7D5006E828F /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				1D39A3A920F2C7D5006E828F /* Kiip.html */,
-				1D39A3AA20F2C7D5006E828F /* KPModal.html */,
-				1D39A3AB20F2C7D5006E828F /* KPNotificationView.html */,
-				1D39A3AC20F2C7D5006E828F /* KPNotification.html */,
-				1D39A3AD20F2C7D5006E828F /* KPPoptart.html */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		1D39A3AF20F2C7D5006E828F /* js */ = {
-			isa = PBXGroup;
-			children = (
-				1D39A3B020F2C7D5006E828F /* script.js */,
-			);
-			path = js;
-			sourceTree = "<group>";
-		};
-		1D39A3B120F2C7D5006E828F /* img */ = {
-			isa = PBXGroup;
-			children = (
-				1D39A3B220F2C7D5006E828F /* library_background.png */,
-				1D39A3B320F2C7D5006E828F /* disclosure.png */,
-				1D39A3B420F2C7D5006E828F /* disclosure_open.png */,
-				1D39A3B520F2C7D5006E828F /* button_bar_background.png */,
-				1D39A3B620F2C7D5006E828F /* title_background.png */,
-			);
-			path = img;
-			sourceTree = "<group>";
-		};
-		1D39A3B720F2C7D5006E828F /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				1D39A3B820F2C7D5006E828F /* KPNotificationDelegate.html */,
-				1D39A3B920F2C7D5006E828F /* KPPoptartDelegate.html */,
-				1D39A3BA20F2C7D5006E828F /* KiipDelegate.html */,
-				1D39A3BB20F2C7D5006E828F /* KPModalDelegate.html */,
-			);
-			path = Protocols;
+			path = "Kiip-iOS-SDK-v3.0.3";
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -832,7 +650,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				1D39A38E20F2C7D5006E828F /* Kiip-iOS-SDK-v3.0.2 */,
+				1D60872A220372C400240B1E /* Kiip-iOS-SDK-v3.0.3 */,
 				13B07FAE1A68108700A75B9A /* KiipRCT */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* KiipRCTTests */,
@@ -1309,45 +1127,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D39A3D720F2C7D6006E828F /* KPNotification.html in Resources */,
-				1D39A3E020F2C7D6006E828F /* KPNotificationDelegate.html in Resources */,
-				1D39A3CB20F2C7D6006E828F /* _index.scss in Resources */,
-				1D39A3C720F2C7D6006E828F /* docSet.dsidx in Resources */,
-				1D39A3D820F2C7D6006E828F /* KPPoptart.html in Resources */,
-				1D39A3DD20F2C7D6006E828F /* disclosure_open.png in Resources */,
-				1D39A3CA20F2C7D6006E828F /* index.html in Resources */,
-				1D39A3CF20F2C7D6006E828F /* _layout.scss in Resources */,
-				1D39A3C420F2C7D5006E828F /* docSet.toc in Resources */,
-				1D39A3DF20F2C7D6006E828F /* title_background.png in Resources */,
-				1D39A3C020F2C7D5006E828F /* KiipSDKResources.bundle in Resources */,
+				1D608730220372C400240B1E /* KiipSDKResources.bundle in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				1D39A3D220F2C7D6006E828F /* _normalize.scss in Resources */,
-				1D39A3E120F2C7D6006E828F /* KPPoptartDelegate.html in Resources */,
-				1D39A3DC20F2C7D6006E828F /* disclosure.png in Resources */,
+				1D608733220372C400240B1E /* README.md in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				1D39A3C920F2C7D6006E828F /* docSet.mom in Resources */,
-				1D39A3E420F2C7D6006E828F /* docSet.skidx in Resources */,
-				1D39A3E220F2C7D6006E828F /* KiipDelegate.html in Resources */,
-				1D39A3D120F2C7D6006E828F /* style.scss in Resources */,
-				1D39A3C120F2C7D5006E828F /* CHANGELOG.md in Resources */,
-				1D39A3C520F2C7D5006E828F /* docSet.dsidx-wal in Resources */,
-				1D39A3D520F2C7D6006E828F /* KPModal.html in Resources */,
-				1D39A3C820F2C7D6006E828F /* docSet.tokencache in Resources */,
-				1D39A3DB20F2C7D6006E828F /* library_background.png in Resources */,
-				1D39A3C620F2C7D6006E828F /* docSet.dsidx-shm in Resources */,
-				1D39A3D620F2C7D6006E828F /* KPNotificationView.html in Resources */,
-				1D39A3DA20F2C7D6006E828F /* script.js in Resources */,
-				1D39A3E520F2C7D6006E828F /* Info.plist in Resources */,
-				1D39A3D020F2C7D6006E828F /* _object.scss in Resources */,
-				1D39A3E620F2C7D6006E828F /* README.md in Resources */,
-				1D39A3D920F2C7D6006E828F /* hierarchy.html in Resources */,
-				1D39A3CE20F2C7D6006E828F /* _print.scss in Resources */,
-				1D39A3D420F2C7D6006E828F /* Kiip.html in Resources */,
-				1D39A3D320F2C7D6006E828F /* style.css in Resources */,
-				1D39A3CC20F2C7D6006E828F /* _variables.scss in Resources */,
-				1D39A3DE20F2C7D6006E828F /* button_bar_background.png in Resources */,
-				1D39A3E320F2C7D6006E828F /* KPModalDelegate.html in Resources */,
-				1D39A3CD20F2C7D6006E828F /* _xcode.scss in Resources */,
+				1D608731220372C400240B1E /* CHANGELOG.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1506,7 +1290,7 @@
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
@@ -1514,6 +1298,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Kiip-iOS-SDK-v3.0.2",
+					"$(PROJECT_DIR)/Kiip-iOS-SDK-v3.0.3",
 				);
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native/React/**/**";
 				INFOPLIST_FILE = KiipRCT/Info.plist;
@@ -1531,13 +1316,14 @@
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Kiip-iOS-SDK-v3.0.2",
+					"$(PROJECT_DIR)/Kiip-iOS-SDK-v3.0.3",
 				);
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native/React/**/**";
 				INFOPLIST_FILE = KiipRCT/Info.plist;

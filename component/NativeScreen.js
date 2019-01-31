@@ -8,7 +8,7 @@ export default class NativeDemo extends Component {
   constructor(props){
     super(props)
     this.state = {
-      moment: 'd'   //place the native reward moment id
+      moment: ''   //place the native reward moment id
     }
   }
 
